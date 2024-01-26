@@ -66,3 +66,39 @@ li {
 .treat{
   float: left;
 }
+.patients{
+  text-align: center;
+}
+.pat{
+  color: #496bf2;
+}
+.circles{
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  border: 2px solid black;
+  display: inline-block;
+}
+.circles:not(:last-child){
+  margin-right: 20px;
+}
+.keziah{
+  text-align: center;
+}
+.lucy{
+  color: blue;
+}
+.dreams{
+  margin:0 auto;
+  width:fit-content;
+
+}
+.life{
+  text-align: center;
+}
+.healing{
+  color:#2dd6c1;
+}
+.plan{
+  color:#496bf2;
+}
