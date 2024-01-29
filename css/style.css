@@ -60,45 +60,104 @@ li {
 .clearfix {
   clear: both;
 }
-.clinic{
+.clinic {
   margin: 40px;
 }
-.treat{
+.treat {
   float: left;
 }
-.patients{
+.patients {
   text-align: center;
 }
-.pat{
+.pat {
   color: #496bf2;
 }
-.circles{
-  width:20px;
-  height:20px;
-  border-radius:50%;
+.circles {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
   border: 2px solid black;
   display: inline-block;
 }
-.circles:not(:last-child){
+.circles:not(:last-child) {
   margin-right: 20px;
 }
-.keziah{
+.keziah {
   text-align: center;
 }
-.lucy{
+.lucy {
   color: blue;
 }
-.dreams{
-  margin:0 auto;
-  width:fit-content;
-
+.dreams {
+  margin: 0 auto;
+  width: fit-content;
 }
-.life{
+.life {
   text-align: center;
 }
-.healing{
-  color:#2dd6c1;
+.healing {
+  color: #2dd6c1;
 }
-.plan{
-  color:#496bf2;
+.plan {
+  color: #496bf2;
+}
+.background-inputs {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+.background-inputs input {
+  width: 50%;
+  margin-bottom: 5em;
+  padding: 2em;
+  margin-top: 2em;
+  border-radius: none;
+}
+.background-inputs {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 50%;
+  padding-top: 2em;
+  margin-top: 2em;
+  border-radius: none;
+}
+#message {
+  width: 35%;
+  padding: 10%;
+  border: none;
+}
+#message:focus {
+  border: none;
+}
+.yoga {
+  background-color: #496bf2;
+  padding: 2em;
+  width: 30%;
+  margin-top: 2em;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+}
+.clearfix {
+  clear: both;
+}
+.bg-form {
+  background-image: url("../images/ezgif-2-81a50240fb.png");
+  height: 100vh;
+  position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 30%;
+  padding: 2.5rem;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
 }
