@@ -67,10 +67,20 @@ nav ul li {
   float: left;
   padding-left: 200px;
 }
+.about-us{
+  float: left;
+  padding-left: 2%;
+}
 .patients {
   text-align: center;
 }
 .pat {
+  color: #496bf2;
+}
+.color{
+  color: #2dd6c1;
+}
+h3{
   color: #496bf2;
 }
 .testimonial-circles {
@@ -183,13 +193,6 @@ textarea {
 }
 .form-content{
   margin:40px;
-}
-.abt{
-  margin:50px;
-}
-.para{
-  margin:50px;
-  display:block;
 }
 .home{
   color:#496bf2
